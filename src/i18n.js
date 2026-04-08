@@ -9,7 +9,7 @@ const translations = {
 
     // Hero
     "hero.title": 'Building the <span class="italic text-zinc-500 relative">future<span class="absolute -right-3 top-0 text-lg md:text-2xl font-medium not-italic text-zinc-400">\u00AE</span></span>, one project at a time.',
-    "hero.subtitle": "Hi, I'm Limitless \u2014 a builder, creator, and developer. I craft digital experiences that matter.",
+    "hero.subtitle": "AI Product Manager & Vibe Coder. I design intelligent experiences and ship them end-to-end \u2014 from product vision to production code.",
     "hero.cta.projects": "View Projects",
     "hero.cta.github": "GitHub",
 
@@ -17,11 +17,11 @@ const translations = {
     "about.tag": "About",
     "about.title": 'Not just coding \u2014 <span class="italic text-zinc-500">creating</span> things that people love.',
     "about.card1.title": "Who I Am",
-    "about.card1.desc": "A passionate builder who loves turning ideas into reality. Always learning, always shipping.",
+    "about.card1.desc": "AI Product Manager with 4+ years experience. XMU graduate in Automation. From product vision to code delivery \u2014 I ship end-to-end.",
     "about.card2.title": "What I Do",
-    "about.card2.desc": "Full-stack development, AI applications, and crafting beautiful digital products from concept to launch.",
+    "about.card2.desc": "AI product design, UX-driven Agent experiences, and Vibe Coding \u2014 turning ideas into shipped products at lightning speed.",
     "about.card3.title": "How I Work",
-    "about.card3.desc": "Move fast, ship often, iterate always. I believe in building in public and learning by doing.",
+    "about.card3.desc": "Ship fast as my own deepest user. 4 days, 10K lines of code \u2014 from product design to production. That's Vibe Coding.",
     "about.card3.stat": "Projects Shipped",
 
     // Stats
@@ -35,14 +35,14 @@ const translations = {
     "projects.title": 'Things I\'ve <span class="italic text-zinc-500">built</span> and shipped.',
     "projects.featured": "Featured",
     "projects.live": "Live",
-    "projects.p1.title": "Project Name",
-    "projects.p1.desc": "A brief description of your flagship project. What problem does it solve? What makes it special? Replace this with your actual project details.",
-    "projects.p2.tag": "Open Source",
-    "projects.p2.title": "Project Two",
-    "projects.p2.desc": "Description of your second project. What tech stack? What's the impact?",
-    "projects.p3.tag": "AI",
-    "projects.p3.title": "Project Three",
-    "projects.p3.desc": "Description of your third project. Keep it concise and impactful.",
+    "projects.p1.title": "Limitless Agent",
+    "projects.p1.desc": "A personal AI Agent product built end-to-end via Vibe Coding in one week. Cross-platform (Web + Desktop + iOS + CLI) with polished conversation UX, tool-use visualization, and context management.",
+    "projects.p2.tag": "Enterprise Tool",
+    "projects.p2.title": "Bidding Doc Generator",
+    "projects.p2.desc": "Bid management & auto-generation system serving a ~100 person team. Batch resume generation, technical proposals, and contract document formatting.",
+    "projects.p3.tag": "Open Source",
+    "projects.p3.title": "Craft Agents Remix",
+    "projects.p3.desc": "Deep customization of open-source AI Agent desktop app. 6 full-stack features, 30+ files changed, 1400+ lines \u2014 with zero regression across 10+ upstream merges.",
     "projects.viewall": "View all on GitHub",
 
     // Skills
@@ -93,7 +93,7 @@ const translations = {
 
     // Hero
     "hero.title": '\u6784\u5EFA<span class="italic text-zinc-500 relative">\u672A\u6765<span class="absolute -right-3 top-0 text-lg md:text-2xl font-medium not-italic text-zinc-400">\u00AE</span></span>\uFF0C\u4E00\u4E2A\u9879\u76EE\u63A5\u4E00\u4E2A\u9879\u76EE\u3002',
-    "hero.subtitle": "\u4F60\u597D\uFF0C\u6211\u662F Limitless \u2014 \u4E00\u4E2A\u5EFA\u9020\u8005\u3001\u521B\u4F5C\u8005\u548C\u5F00\u53D1\u8005\u3002\u6211\u4E13\u6CE8\u4E8E\u521B\u9020\u6709\u4EF7\u503C\u7684\u6570\u5B57\u4F53\u9A8C\u3002",
+    "hero.subtitle": "AI \u4EA7\u54C1\u7ECF\u7406 & Vibe Coder\u3002\u6211\u8BBE\u8BA1\u667A\u80FD\u4F53\u9A8C\uFF0C\u5E76\u7AEF\u5230\u7AEF\u4EA4\u4ED8 \u2014 \u4ECE\u4EA7\u54C1\u89C4\u5212\u5230\u751F\u4EA7\u4EE3\u7801\u3002",
     "hero.cta.projects": "\u67E5\u770B\u9879\u76EE",
     "hero.cta.github": "GitHub",
 
@@ -101,11 +101,11 @@ const translations = {
     "about.tag": "\u5173\u4E8E",
     "about.title": '\u4E0D\u53EA\u662F\u5199\u4EE3\u7801 \u2014 \u66F4\u662F\u5728<span class="italic text-zinc-500">\u521B\u9020</span>\u4EBA\u4EEC\u559C\u7231\u7684\u4E1C\u897F\u3002',
     "about.card1.title": "\u6211\u662F\u8C01",
-    "about.card1.desc": "\u4E00\u4E2A\u5145\u6EE1\u70ED\u60C5\u7684\u5EFA\u9020\u8005\uFF0C\u70ED\u7231\u5C06\u60F3\u6CD5\u53D8\u4E3A\u73B0\u5B9E\u3002\u6C38\u8FDC\u5728\u5B66\u4E60\uFF0C\u6C38\u8FDC\u5728\u4EA4\u4ED8\u3002",
+    "about.card1.desc": "4 \u5E74+ AI \u4EA7\u54C1\u7ECF\u9A8C\uFF0C\u53A6\u95E8\u5927\u5B66\u81EA\u52A8\u5316\u4E13\u4E1A\u3002\u4ECE\u4EA7\u54C1\u89C4\u5212\u5230\u4EE3\u7801\u4EA4\u4ED8\uFF0C\u7AEF\u5230\u7AEF\u95ED\u73AF\u3002",
     "about.card2.title": "\u6211\u505A\u4EC0\u4E48",
-    "about.card2.desc": "\u5168\u6808\u5F00\u53D1\u3001AI \u5E94\u7528\uFF0C\u4EE5\u53CA\u4ECE\u6982\u5FF5\u5230\u4E0A\u7EBF\u7684\u7CBE\u7F8E\u6570\u5B57\u4EA7\u54C1\u3002",
+    "about.card2.desc": "AI \u4EA7\u54C1\u8BBE\u8BA1\u3001\u4F53\u9A8C\u9A71\u52A8\u7684 Agent \u4EA4\u4E92\u3001Vibe Coding \u2014 \u5C06\u60F3\u6CD5\u4EE5\u6781\u901F\u8F6C\u5316\u4E3A\u5DF2\u4EA4\u4ED8\u4EA7\u54C1\u3002",
     "about.card3.title": "\u5DE5\u4F5C\u65B9\u5F0F",
-    "about.card3.desc": "\u5FEB\u901F\u884C\u52A8\uFF0C\u9891\u7E41\u4EA4\u4ED8\uFF0C\u6301\u7EED\u8FED\u4EE3\u3002\u6211\u4FE1\u5949\u516C\u5F00\u6784\u5EFA\uFF0C\u5728\u5B9E\u8DF5\u4E2D\u5B66\u4E60\u3002",
+    "about.card3.desc": "\u4F5C\u4E3A\u81EA\u5DF1\u4EA7\u54C1\u6700\u6DF1\u5EA6\u7684\u7528\u6237\u6765\u5FEB\u901F\u8FED\u4EE3\u30024 \u5929\u4EA4\u4ED8\u8FD1\u4E07\u884C\u4EE3\u7801 \u2014 \u4ECE\u4EA7\u54C1\u8BBE\u8BA1\u5230\u751F\u4EA7\u4E0A\u7EBF\u3002\u8FD9\u5C31\u662F Vibe Coding\u3002",
     "about.card3.stat": "\u5DF2\u4EA4\u4ED8\u9879\u76EE",
 
     // Stats
@@ -119,14 +119,14 @@ const translations = {
     "projects.title": '\u6211<span class="italic text-zinc-500">\u6784\u5EFA</span>\u5E76\u4EA4\u4ED8\u7684\u4F5C\u54C1\u3002',
     "projects.featured": "\u7CBE\u9009",
     "projects.live": "\u5DF2\u4E0A\u7EBF",
-    "projects.p1.title": "\u9879\u76EE\u540D\u79F0",
-    "projects.p1.desc": "\u4F60\u7684\u65D7\u8230\u9879\u76EE\u7684\u7B80\u8981\u63CF\u8FF0\u3002\u5B83\u89E3\u51B3\u4E86\u4EC0\u4E48\u95EE\u9898\uFF1F\u6709\u4EC0\u4E48\u7279\u522B\u4E4B\u5904\uFF1F\u8BF7\u66FF\u6362\u4E3A\u4F60\u7684\u5B9E\u9645\u9879\u76EE\u8BE6\u60C5\u3002",
-    "projects.p2.tag": "\u5F00\u6E90",
-    "projects.p2.title": "\u9879\u76EE\u4E8C",
-    "projects.p2.desc": "\u7B2C\u4E8C\u4E2A\u9879\u76EE\u7684\u63CF\u8FF0\u3002\u4EC0\u4E48\u6280\u672F\u6808\uFF1F\u6709\u4EC0\u4E48\u5F71\u54CD\uFF1F",
-    "projects.p3.tag": "AI",
-    "projects.p3.title": "\u9879\u76EE\u4E09",
-    "projects.p3.desc": "\u7B2C\u4E09\u4E2A\u9879\u76EE\u7684\u63CF\u8FF0\u3002\u7B80\u6D01\u800C\u6709\u529B\u3002",
+    "projects.p1.title": "Limitless Agent",
+    "projects.p1.desc": "\u4E00\u5468\u5185\u4EE5 Vibe Coding \u65B9\u5F0F\u7AEF\u5230\u7AEF\u72EC\u7ACB\u5B8C\u6210\u7684\u4E2A\u4EBA AI Agent \u4EA7\u54C1\u3002\u8DE8\u5E73\u53F0\u90E8\u7F72\uFF08Web + \u684C\u9762\u7AEF + iOS + CLI\uFF09\uFF0C\u6DF1\u5EA6\u6253\u78E8\u5BF9\u8BDD\u4EA4\u4E92\u4F53\u9A8C\u3001\u5DE5\u5177\u8C03\u7528\u53EF\u89C6\u5316\u4E0E\u4E0A\u4E0B\u6587\u7BA1\u7406\u3002",
+    "projects.p2.tag": "\u4F01\u4E1A\u5DE5\u5177",
+    "projects.p2.title": "\u6295\u6807\u6587\u6863\u751F\u6210\u7CFB\u7EDF",
+    "projects.p2.desc": "\u670D\u52A1\u8FD1\u767E\u4EBA\u56E2\u961F\u7684\u6295\u6807\u7BA1\u7406\u4E0E\u6587\u6863\u81EA\u52A8\u751F\u6210\u7CFB\u7EDF\u3002\u5B9E\u73B0\u7B80\u5386\u6279\u91CF\u751F\u6210\u3001\u6280\u672F\u65B9\u6848\u4E0E\u5408\u540C\u6587\u6863\u81EA\u52A8\u6392\u7248\u3002",
+    "projects.p3.tag": "\u5F00\u6E90",
+    "projects.p3.title": "Craft Agents \u6DF1\u5EA6\u5B9A\u5236",
+    "projects.p3.desc": "\u57FA\u4E8E\u5F00\u6E90 AI Agent \u684C\u9762\u5E94\u7528\u7684\u6DF1\u5EA6\u4E8C\u6B21\u5F00\u53D1\u30026 \u4E2A\u8DE8\u5168\u6808\u7279\u6027\uFF0C30+ \u6587\u4EF6\u4FEE\u6539\uFF0C1400+ \u884C\u4EE3\u7801 \u2014 10+ \u6B21\u4E0A\u6E38\u5408\u5E76\u96F6\u56DE\u9000\u3002",
     "projects.viewall": "\u5728 GitHub \u67E5\u770B\u5168\u90E8",
 
     // Skills
