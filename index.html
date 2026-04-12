@@ -388,9 +388,9 @@
                     <div class="mt-8 pt-8 border-t border-zinc-100 w-full flex items-center justify-between">
                         <div>
                             <p class="text-xs text-zinc-500 font-normal mb-1" data-i18n="faq.email.label">Email</p>
-                            <a href="mailto:hello@limitless.dev" class="text-sm font-medium hover:text-zinc-600 transition-colors">hello@limitless.dev</a>
+                            <a href="mailto:clj.chen@outlook.com" class="text-sm font-medium hover:text-zinc-600 transition-colors">clj.chen@outlook.com</a>
                         </div>
-                        <a href="mailto:hello@limitless.dev" class="bg-zinc-900 hover:bg-zinc-800 text-white text-xs font-medium px-5 py-2.5 rounded-full transition-colors" data-i18n="faq.email.cta">
+                        <a href="mailto:clj.chen@outlook.com" class="bg-zinc-900 hover:bg-zinc-800 text-white text-xs font-medium px-5 py-2.5 rounded-full transition-colors" data-i18n="faq.email.cta">
                             Get in touch
                         </a>
                     </div>
@@ -464,7 +464,7 @@
                     Have an idea? Need a builder? I'm always excited to work on meaningful projects.
                 </p>
 
-                <a href="mailto:hello@limitless.dev" class="bg-white hover:bg-zinc-200 text-zinc-900 transition-colors rounded-full py-4 px-8 text-base font-medium inline-flex items-center gap-2">
+                <a href="mailto:clj.chen@outlook.com" class="bg-white hover:bg-zinc-200 text-zinc-900 transition-colors rounded-full py-4 px-8 text-base font-medium inline-flex items-center gap-2">
                     <iconify-icon icon="solar:letter-linear" class="text-lg"></iconify-icon>
                     <span data-i18n="footer.cta">Say Hello</span>
                 </a>
@@ -482,22 +482,22 @@
                     </div>
                     <iconify-icon icon="solar:arrow-right-up-linear" class="text-lg text-zinc-600 group-hover:text-white transition-colors"></iconify-icon>
                 </a>
-                <a href="#" class="bg-zinc-900 border border-zinc-800 hover:border-zinc-700 transition-colors rounded-2xl p-6 flex items-center justify-between group">
+                <div class="bg-zinc-900 border border-zinc-800 hover:border-zinc-700 transition-colors rounded-2xl p-6 flex items-center justify-between group cursor-pointer relative" onclick="document.getElementById('wechat-modal').classList.toggle('hidden')">
                     <div class="flex items-center gap-4">
-                        <iconify-icon icon="mdi:twitter" class="text-2xl text-zinc-400 group-hover:text-white transition-colors"></iconify-icon>
+                        <iconify-icon icon="mdi:wechat" class="text-2xl text-zinc-400 group-hover:text-white transition-colors"></iconify-icon>
                         <div>
-                            <div class="font-medium text-sm">Twitter / X</div>
-                            <div class="text-xs text-zinc-500">@limitless</div>
+                            <div class="font-medium text-sm">WeChat</div>
+                            <div class="text-xs text-zinc-500">Scan to connect</div>
                         </div>
                     </div>
-                    <iconify-icon icon="solar:arrow-right-up-linear" class="text-lg text-zinc-600 group-hover:text-white transition-colors"></iconify-icon>
-                </a>
-                <a href="mailto:hello@limitless.dev" class="bg-zinc-900 border border-zinc-800 hover:border-zinc-700 transition-colors rounded-2xl p-6 flex items-center justify-between group">
+                    <iconify-icon icon="solar:qr-code-linear" class="text-lg text-zinc-600 group-hover:text-white transition-colors"></iconify-icon>
+                </div>
+                <a href="mailto:clj.chen@outlook.com" class="bg-zinc-900 border border-zinc-800 hover:border-zinc-700 transition-colors rounded-2xl p-6 flex items-center justify-between group">
                     <div class="flex items-center gap-4">
                         <iconify-icon icon="solar:letter-linear" class="text-2xl text-zinc-400 group-hover:text-white transition-colors"></iconify-icon>
                         <div>
                             <div class="font-medium text-sm">Email</div>
-                            <div class="text-xs text-zinc-500">hello@limitless.dev</div>
+                            <div class="text-xs text-zinc-500">clj.chen@outlook.com</div>
                         </div>
                     </div>
                     <iconify-icon icon="solar:arrow-right-up-linear" class="text-lg text-zinc-600 group-hover:text-white transition-colors"></iconify-icon>
@@ -514,5 +514,15 @@
             </div>
         </div>
     </footer>
+
+    <!-- WeChat QR Modal -->
+    <div id="wechat-modal" class="hidden fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm" onclick="if(event.target===this)this.classList.add('hidden')">
+        <div class="bg-white rounded-3xl p-8 max-w-sm mx-4 flex flex-col items-center gap-4 shadow-2xl">
+            <h3 class="text-lg font-medium text-zinc-900">Scan to add WeChat</h3>
+            <img src="/wechat-qr.jpg" alt="WeChat QR Code" class="w-64 h-64 object-contain rounded-xl">
+            <p class="text-xs text-zinc-400">ID: limitless</p>
+            <button onclick="document.getElementById('wechat-modal').classList.add('hidden')" class="text-sm text-zinc-500 hover:text-zinc-900 transition-colors mt-2 cursor-pointer">Close</button>
+        </div>
+    </div>
 
 </body></html>
