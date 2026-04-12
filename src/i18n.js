@@ -8,8 +8,8 @@ const translations = {
     "nav.cta": "Let's Talk",
 
     // Hero
-    "hero.title": 'Building the <span class="italic text-zinc-500 relative">future<span class="absolute -right-3 top-0 text-lg md:text-2xl font-medium not-italic text-zinc-400">\u00AE</span></span>, one project at a time.',
-    "hero.subtitle": "AI Product Manager & Vibe Coder. I design intelligent experiences and ship them end-to-end \u2014 from product vision to production code.",
+    "hero.title": 'Think deep, design <span class="italic text-zinc-500 relative">smart</span>, build what matters.',
+    "hero.subtitle": "AI Product Manager who lives inside the product. I think from the user's perspective, design with intention, and validate by building.",
     "hero.cta.projects": "View Projects",
     "hero.cta.github": "GitHub",
 
@@ -92,8 +92,8 @@ const translations = {
     "nav.cta": "\u8054\u7CFB\u6211",
 
     // Hero
-    "hero.title": '\u6784\u5EFA<span class="italic text-zinc-500 relative">\u672A\u6765<span class="absolute -right-3 top-0 text-lg md:text-2xl font-medium not-italic text-zinc-400">\u00AE</span></span>\uFF0C\u4E00\u4E2A\u9879\u76EE\u63A5\u4E00\u4E2A\u9879\u76EE\u3002',
-    "hero.subtitle": "AI \u4EA7\u54C1\u7ECF\u7406 & Vibe Coder\u3002\u6211\u8BBE\u8BA1\u667A\u80FD\u4F53\u9A8C\uFF0C\u5E76\u7AEF\u5230\u7AEF\u4EA4\u4ED8 \u2014 \u4ECE\u4EA7\u54C1\u89C4\u5212\u5230\u751F\u4EA7\u4EE3\u7801\u3002",
+    "hero.title": '\u6DF1\u5EA6\u601D\u8003\uFF0C<span class="italic text-zinc-500 relative">\u7CBE\u5FC3</span>\u8BBE\u8BA1\uFF0C\u6784\u5EFA\u6709\u4EF7\u503C\u7684\u4EA7\u54C1\u3002',
+    "hero.subtitle": "\u4E00\u4E2A\u6D3B\u5728\u4EA7\u54C1\u91CC\u7684 AI \u4EA7\u54C1\u7ECF\u7406\u3002\u4ECE\u7528\u6237\u89C6\u89D2\u601D\u8003\uFF0C\u5E26\u7740\u610F\u56FE\u8BBE\u8BA1\uFF0C\u7528\u6784\u5EFA\u6765\u9A8C\u8BC1\u3002",
     "hero.cta.projects": "\u67E5\u770B\u9879\u76EE",
     "hero.cta.github": "GitHub",
 
